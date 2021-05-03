@@ -1,6 +1,7 @@
 body
 {
     background-color: rgb(34, 27, 36);
+    text-align: center;
    
 
 }
@@ -13,5 +14,6 @@ h1
  
 img 
 {
+    
     border-radius: 400px;
 }
