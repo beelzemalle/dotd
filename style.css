@@ -1,12 +1,12 @@
 body
 {
-    background-color: rgb(34, 27, 36);
+    background-color: rgb(62, 63, 65);
     text-align: center;
 }
 
 h1
 {
-    color:rgb(255, 151, 113);
+    color:rgb(236, 177, 155);
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
 }
@@ -19,17 +19,24 @@ p
 img 
 {
     border-radius: 400px;
-    border: 10px solid rgb(255, 151, 113);
+    border: 10px solid rgb(236, 177, 155);
     margin: 30px
 }
 
 footer
 {
-    color: rgb(78, 30, 54);
-    background-color: rgb(209, 171, 171);
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 209, 209);
     text-align: center;
     padding: 20px;
     margin: 80px;
-    border: 4px solid rgb(255, 151, 113);
+    border: 4px solid rgb(236, 177, 155);
     
+}
+
+button
+{
+    color:rgb(236, 177, 155);
+    background-color:rgb(62, 63, 65);
+    border-color: white;
 }
