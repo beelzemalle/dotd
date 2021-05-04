@@ -7,17 +7,21 @@ body
 h1
 {
     color:rgb(236, 177, 155);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     font-size: 40px;
 }
 
 p
 {
-    font-size: 30px;
+    font-size: 40px;
+    color:rgb(236, 177, 155);
+    font-family: monospace;
+    text-align: center;
 }
  
 img 
 {
+    
     border-radius: 400px;
     border: 10px solid rgb(236, 177, 155);
     margin: 30px
@@ -36,7 +40,9 @@ footer
 
 button
 {
+    
     color:rgb(236, 177, 155);
     background-color:rgb(62, 63, 65);
     border-color: white;
 }
+
