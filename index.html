@@ -1,5 +1,5 @@
 <head>
-    <meta charset='ÚTF-8'>
+    <meta charset='UTF-8'>
     <title>Who's a good boy? &#128054; </title>
 
 <link rel='stylesheet' href='style.css'>
@@ -7,31 +7,49 @@
 </head>
 
 <body>
-<h1> wanna work on this today, babe? </h1>
+<h1> dog of the day </h1>
 <p>&#128054;</p>
 
-<div class='dog'> 
-<img src='https://b.catgirlsare.sexy/dZ98nWv5.png'>
-</div>
-
 <script>
-    var doges=[link1,link2]
+    fetch('https://random.dog/doggos')
+    .then(function (j) { return j.json() })
+    .then(switchdog)
 
-    function switchdog()
+    function switchdog(doges)
     {
+     var days = checkdog() // 18000 something
+     var index = 0
+     for(var i = 0; i < days; i++) // loop through all days
+       {
+        index=index+1
+        if (index>18000)
+        {
+            index=0
+        }
 
-    }
+       }
+    
 
-    function checkdog()
-    {
+     function addpic()
+     {
+      var img = document.createElement('img');  
+      img.src="https://random.dog/" +  doges[index]
+      document.body.appendChild(img)
+    
+     }
+     var pupper =  doges[index]
+     addpic(pupper)
+
+      function checkdog()
+     {
         var date = Date.now()
         var days= date/1000/60/60/24
         return Math.floor(days)
+        
+     }
+   
     }
-
-    
-
-
 </script>
 
 <footer>Hey, I am just using this to learn css/html, if you come across this, ignore it for now.</footer> 
+</body>
