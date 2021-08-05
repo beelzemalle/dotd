@@ -36,6 +36,19 @@ img
    
 }
 
+video
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    height:86% ;
+    object-fit:contain;
+    border-radius: 70px;
+    border: 5px solid rgb(236, 177, 155);
+
+}
+
 footer
 {
     display:block;
